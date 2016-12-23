@@ -346,6 +346,7 @@ use syntax::print::pprust::item_to_string;
 pub mod node;
 pub mod parser;
 pub mod builder;
+pub mod spin_until;
 
 #[plugin_registrar]
 pub fn plugin_registrar(reg: &mut Registry) {
